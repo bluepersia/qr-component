@@ -34,3 +34,17 @@ body
 *:last-child {
     margin-bottom: 0;
 }
+
+
+/* Typography */
+
+.c 
+{
+    font-family: "Outfit", sans-serif;
+    color: var(--c-Grey);
+}
+
+.c h1 {
+    font-size: 1.46rem;
+    color: var(--c-DarkNavy);
+}
