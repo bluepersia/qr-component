@@ -48,3 +48,30 @@ body
     font-size: 1.46rem;
     color: var(--c-DarkNavy);
 }
+
+/* Layout */
+
+.c 
+{
+    padding: 1.06em;
+    max-width: 320px;
+    border-radius: 20px;
+    background-color: var(--c-White);
+    text-align: center;
+}
+
+
+.c__content 
+{
+    padding: 1.6em 0;
+}
+.c__img-code 
+{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
