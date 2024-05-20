@@ -1,0 +1,36 @@
+:root 
+{
+    --c-Blue: #2C7DFA;
+    --c-BlueShade: #3685FF;
+    --c-DarkNavy: #1F314F;
+    --c-Grey: #7D889E;
+    --c-LightGrey: #D5E1EF;
+    --c-White: white;
+}
+
+html {
+    font-size: 15px;
+}
+body 
+{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7.2%;
+    background-color: var(--c-LightGrey);
+}
+
+* {
+    box-sizing: border-box;
+}
+*:first-child 
+{
+    margin-top: 0;
+}
+
+*:last-child {
+    margin-bottom: 0;
+}
